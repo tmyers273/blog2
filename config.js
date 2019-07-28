@@ -1,40 +1,43 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
-  useKatex: false,
-  menu: [
-    {
-      label: 'Articles',
-      path: '/'
+    url: 'https://lumen.netlify.com',
+    pathPrefix: '/',
+    title: 'Blog by Tom Myers',
+    subtitle: 'Pragmatic software architect building high impact applications with Laravel + Vue + Golang',
+    copyright: '© All rights reserved.',
+    disqusShortname: '',
+    postsPerPage: 4,
+    googleAnalyticsId: 'UA-73379983-2',
+    useKatex: false,
+    siteMetadata: {
+        title: `Title from siteMetadata`,
     },
-    {
-      label: 'About me',
-      path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
+    menu: [
+        {
+            label: 'Articles',
+            path: '/'
+        },
+        {
+            label: 'About me',
+            path: '/pages/about'
+        },
+        {
+            label: 'Open Source Software',
+            path: '/pages/open-source-software'
+        }
+    ],
+    author: {
+        name: 'Tom Myers',
+        photo: '/photo.jpg',
+        bio: 'Pragmatic software architect building high impact applications with Laravel + Vue + Golang',
+        contacts: {
+            email: '#',
+            telegram: '#',
+            twitter: '#',
+            github: '#',
+            rss: '#',
+            vkontakte: '#'
+        }
     }
-  ],
-  author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
-    }
-  }
 };
