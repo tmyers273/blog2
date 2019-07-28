@@ -25,10 +25,6 @@ module.exports = {
         {
             label: 'Open Source Software',
             path: '/pages/open-source-software'
-        },
-        {
-            label: 'Resume',
-            path: 'https://www.dropbox.com/s/edwmfq2vl20zr8j/resume-simple.pdf?dl=0'
         }
     ],
     author: {

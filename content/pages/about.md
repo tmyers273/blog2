@@ -13,3 +13,4 @@ You can find me on [Github](https://github.com/tmyers273/),
  [Facebook](https://www.facebook.com/tom.myers.79). Feel free
  to reach out, I'm happy to hear from you!
  
+My resume is available [here](https://www.dropbox.com/s/edwmfq2vl20zr8j/resume-simple.pdf?dl=1)
